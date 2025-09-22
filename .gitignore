@@ -1,0 +1,26 @@
+# Terraform state and variables
+*.tfstate
+*.tfstate.backup
+.terraform/
+*.tfvars
+
+# Local and editor files
+*.swp
+*.swo
+*.DS_Store
+.vscode/
+.idea/
+
+# OS generated files
+Thumbs.db
+
+# Log files
+*.log
+
+aws/
+
+# Ignore AWS and GCP specific files
+aws/terraform.tfstate
+gcloud/terraform.tfstate
+aws/terraform.tfvars
+gcloud/terraform.tfvars
