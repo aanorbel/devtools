@@ -40,7 +40,9 @@ resource "google_compute_instance" "windows_workstation" {
 
       # Use Chocolatey to install your applications
       # Add or remove packages from the list below
-      choco install -y llvm make vscode 7zip git librewolf
+      choco install -y llvm make vscode 7zip git librewolf androidstudio
+
+      choco install -y correttojdk --version=17.0.2
 
     EOT
 
